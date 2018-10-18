@@ -6,6 +6,8 @@ x.y.z Release notes (yyyy-MM-dd)
 ### Fixed
 * Fix `SyncUser.requestEmailConfirmation` not triggering the email confirmation
   flow on ROS. (PR [#5953](https://github.com/realm/realm-cocoa/pull/5953), since 3.5.0)
+* Fix a memory leak when removing notification blocks from collections.
+  (PR: https://github.com/realm/realm-object-store/pull/702, since 1.1.0).
 
 ### Compatibility
 * File format: Generates Realms with format v9 (Reads and upgrades all previous formats)
